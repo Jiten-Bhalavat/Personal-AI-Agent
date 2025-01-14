@@ -1,0 +1,6 @@
+python-dotenv
+phidata
+openai
+PyGithub
+firecrawl-py
+duckduckgo-search
