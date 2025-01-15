@@ -14,7 +14,24 @@ This project aims to create a personal AI agent that provides a comprehensive ov
 ## 🛠️ Technologies Used
 1. OpenAI LLM Model: For text-based interactions and responses.
 2. GitHub Token: To fetch repository data.
-3. Bright Data API: To retrieve professional data such as experience, education, and projects from LinkedIn.
+3. Scrapin.io API: To retrieve professional data such as experience, education, projects, and volunteer activities from LinkedIn.
 4. Firecrawl Tools: For gathering blog posts from Medium.
 5. DuckDuckGo API: For retrieving general information from the web.
 6. OpenAI TTS Model: To convert text into speech for audio responses.
+
+## Installation
+1. **Clone the repository** :
+   ```bash
+    https://github.com/Jiten-Bhalavat/Personal-AI-Agent.git
+    cd personal-ai-agent
+
+2. **Install the required dependencies**:
+   ```bash
+    pip install -r requirements.txt
+
+3. **Set up the necessary API keys for GitHub, LinkedIn (Scrapin), FireCrawl, and OpenAI**:              
+Set up environment variables or configuration files with the keys.
+
+4. **Run the agent**:
+    ```bash
+    python main.py
